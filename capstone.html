@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portfolio</title>
+    <style>
+        
+            
+        
+        .container-1{
+            background-color: #FFECC8;
+            text-align: center;
+            font-size: 50px;
+            
+            padding-top: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30vh;
+            
+        
+            
+            
+           
+           
+           
+           
+            
+  font-family: "Lustria", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+        }
+
+        
+        .container-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 150px;
+            font-size: 30px;
+            text-align: center;
+            
+
+
+        }    
+
+        .container-3 {
+    display: grid;
+    grid-template-columns:40% 40% 40% span 40%;
+    grid-template-rows: 15% 15% 35% 15% 15%;
+    
+    
+}
+
+.block {
+    border: 3px;
+    text-align: center;
+    
+}
+.header{
+    grid-column: 2 span ;
+    grid-row: -6;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-size: 30px;
+    height: 15vh;
+
+}
+
+.image1 {
+    grid-column: 1;
+    grid-row: 2 span;
+    
+}
+.title1{
+    grid-column: 2;
+    grid-row: -5;
+    font-size: 25px;
+}
+
+.paragraph1 {
+    grid-column: 2;
+    grid-row: -4;
+    font-size: 20Spx;
+}
+
+.image2 {
+    grid-column: 1;
+    grid-row: 4 span;
+}
+.title2{
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+    font-size: 25px;
+}
+.paragraph2 {
+    grid-column: 2;
+    grid-row: -2 span;
+    font-size: 20px;
+}
+
+.container-4{
+    background-color: #FEF9F2;
+            text-align: center;
+            font-size: 20px;
+            
+            padding-top: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+    
+
+}
+.btn-outline-dark{
+    background-color: #FFECC8;
+    padding: 1% 1% 1% 1%;
+    border-radius: 10%;
+}
+
+
+#footer {
+    background-color: #FFECC8;
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: #f8f8f8; /* Optional: Background color for the footer */
+}
+
+.container-5 {
+    background-color: #FFECC8;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.footer-links {
+    display: flex; /* Display links in a row */
+    justify-content: center; /* Center links within the row */
+    margin-bottom: 10px; /* Space below the links */
+}
+
+.footer-link {
+    margin: 0 10px; /* Space between links */
+    text-decoration: none; /* Remove underline from links */
+    color: #0073e6; /* Optional: Link color */
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.copyright {
+    margin-top: 10px; /* Space above copyright text */
+}
+
+
+@media (min-width:319px) and (max-width:1600px) {
+
+    .container-1{
+            background-color: #FFECC8;
+            text-align: center;
+            font-size: 50px;
+            
+            padding-top: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30vh;
+            
+        
+            
+            
+           
+           
+           
+           
+            
+  font-family: "Lustria", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+        }
+
+        
+        .container-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 150px;
+            font-size: 30px;
+            text-align: center;
+            
+
+
+        }    
+
+        .container-3 {
+    display: grid;
+    grid-template-columns:40% 40% 40% span 40%;
+    grid-template-rows: 15% 15% 35% 15% 15%;
+    
+    
+}
+
+.block {
+    border: 3px;
+    text-align: center;
+    
+}
+.header{
+    grid-column: 2 span ;
+    grid-row: -6;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-size: 30px;
+    height: 15vh;
+
+}
+
+.image1 {
+    grid-column: 1;
+    grid-row: 2 span;
+    
+}
+.title1{
+    grid-column: 2;
+    grid-row: -5;
+    font-size: 25px;
+}
+
+.paragraph1 {
+    grid-column: 2;
+    grid-row: -4;
+    font-size: 20Spx;
+}
+
+.image2 {
+    grid-column: 1;
+    grid-row: 4 span;
+}
+.title2{
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+    font-size: 25px;
+}
+.paragraph2 {
+    grid-column: 2;
+    grid-row: -2 span;
+    font-size: 20px;
+}
+
+.container-4{
+    background-color: #FEF9F2;
+            text-align: center;
+            font-size: 20px;
+            
+            padding-top: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+    
+
+}
+.btn-outline-dark{
+    background-color: #FFECC8;
+    padding: 1% 1% 1% 1%;
+    border-radius: 10%;
+}
+
+
+#footer {
+    background-color: #FFECC8;
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: #f8f8f8; /* Optional: Background color for the footer */
+}
+
+.container-5 {
+    background-color: #FFECC8;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.footer-links {
+    display: flex; /* Display links in a row */
+    justify-content: center; /* Center links within the row */
+    margin-bottom: 10px; /* Space below the links */
+}
+
+.footer-link {
+    margin: 0 10px; /* Space between links */
+    text-decoration: none; /* Remove underline from links */
+    color: #0073e6; /* Optional: Link color */
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.copyright {
+    margin-top: 10px; /* Space above copyright text */
+}
+
+}  
+
+    
+
+
+
+
+
+
+
+        
+
+       
+
+        
+        
+
+
+        
+
+        
+            
+            
+
+      
+        
+
+
+  
+
+
+
+
+            
+    
+
+        
+        
+            
+
+ 
+  
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section #id="header">
+        <div class="container-1">
+            <h1>Viktorija Petkovska</h1>
+            
+      
+
+            
+        </div>
+
+    </section>
+    <section id="intro">
+        <div class="container-2">
+            <p>Hello! I'm Viktorija! Designer and Front-end Developer! If you are looking for aesthetically and functional designs, you have clicked on the right space!</p>
+            <img src="./css-html-programming-languages-computer-programming-coding-it-female-programmer-cartoon-character-software-website-development_335657-760.avif" height="600px"width="600px">
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container-3">
+            <div class="block header"><h3>My skills</h3></div>
+            
+            <div class="block image1"><img src="./1922aa91b23fc00bedfa4f485ea193f9.webp" height="200px" width="400px"></div>
+            <div class="block title1"><h4>Front-end development (HTML,CSS and JavaScript)
+            </h4></div>
+            <div class="block paragraph1">I have mastered the three most important programming languages for Front-end Development and also Bootstrap. With the help of these 4 tools I can make your ideal website a reality!
+            </div>
+            <div class="block image2"><img src="./UX-UI-Design-3.webp" height="200px"width="400px"></div>
+            <div class="title2"><h4>UX/UI Design</h4></div>
+            <div class="block paragraph2">With the help of tools like Figma,Framer and Canva; I am able to assist in the design of the project, conduct UX research, create mock-ups and wireframes.
+
+            </div>
+        </div>
+        
+           
+            
+        
+    </section>
+    <br>
+    <br>
+    <section>
+        <div class="container-4">
+            <h3>Want to work together?</h3>
+            <br>
+            <p>If you want to make beautiful designs come to life,you are one click away from achieving that goal!</p>
+            <br>
+            <button class="btn-outline-dark">Contact me</button>
+
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container-5">
+            <a class="footer-link" href="https://www.linkedin.com/in/viktorija-petkovska-116430322/">LinkedIn</a>
+            <a class="footer-link" href="https://www.upwork.com/freelancers/~013e125216a244676f">Upwork</a>
+            <a class="footer-link" href="https://github.com/viktorija2001">GitHub</a>
+            <p class="copyright">©Viktorija Petkovska</p>
+        </div>
+
+    </section>
+</body>
+</html>
